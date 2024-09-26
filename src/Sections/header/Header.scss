@@ -1,0 +1,30 @@
+header {
+    height: 80vh;
+    margin-bottom: 15%;
+
+}
+
+.title-box {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: start;
+    justify-content: center;
+
+
+    .web-title {
+        opacity: 0;
+        font-size: 5em;
+        color: #fff;
+        text-shadow:
+            0 0 7px #fff,
+            0 0 10px #fff,
+            0 0 21px #fff,;
+        line-height: 1.5em;
+        animation: ShowText 1.5s .3s forwards;
+        transition: opacity;
+    }
+    .web-title-description{
+        font-size: 1.5em;
+    }
+}

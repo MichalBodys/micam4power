@@ -1,0 +1,503 @@
+@media (max-width: 860px) {
+
+    .nav__bar {
+
+        .nav__bar-links {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            inset: 0;
+            gap: 2em;
+            background: black;
+            height: 100vh;
+            clip-path: circle(0% at 100% 0.5%);
+            transition: clip-path .8s;
+            font-size: 1.5em;
+            &.active {
+               clip-path: 140% at 95.3% 8.5%;
+
+
+               .nav__link::before{
+                background: $color-main;
+                height: 1px;
+                bottom: 45%;
+               }
+
+            }
+        }
+    }
+
+    .nav__bar {
+
+        .nav__burger-icon {
+
+            display: block
+        }
+    }
+
+    header {
+        .title-box {
+
+            .web-title {
+                font-size: 2em;
+            }
+        }
+    }
+
+
+
+    .about__me {
+        font-size: 0.9em;
+        flex-direction: column;
+        justify-content: space-evenly;
+
+
+        svg{
+            width: 40px;
+            height: 40px;
+        }
+    }
+
+
+    .projects {
+
+        .section-title{
+            font-size: 3.5em;
+        }
+
+        .project_box {
+            flex-direction: column;
+        }
+
+
+    }
+
+
+
+    .skills {
+
+        .skills-box {
+            margin-top: 8em;
+
+
+
+        }
+
+        button {
+            margin-top: 10em;
+        }
+    }
+
+
+    .contact {
+        .contact_title {
+            font-size: 4em;
+        }
+
+        .form_box {
+            justify-content: space-between;
+
+            .logo{
+                // opacity: .3;
+                // left: 60%;
+            }
+
+            p {
+                // margin: 0 auto;
+
+            }
+        }
+    }
+
+
+}
+
+
+@media(max-width:982px) {
+    header {
+        .title-box {
+
+            .web-title {
+                font-size: 4.5em;
+            }
+        }
+    }
+
+    .form_box {
+        justify-content: space-between;
+
+        .logo{
+            opacity:.6;
+
+            top: 50%;
+        }
+
+        p {
+            // margin-left: 25%;
+
+        }
+    }
+
+
+}
+
+@media(min-width:1300px) {
+    // HEADER//
+
+    .nav__bar {
+        font-size: 1.5em;
+    }
+
+    header {
+        .title-box {
+
+            .web-title {
+                font-size: 8em;
+            }
+        }
+    }
+
+    // About ME //
+
+    .about__me {
+        font-size: 2em;
+
+
+        svg{
+            width: 90px;
+            height: 90px;
+        }
+
+    }
+
+
+    // Project //
+    .projects {
+
+        .project_box {
+
+
+            .project-card {
+                font-size: 1.6em;
+                height: 200px;
+                width: 450px;
+
+                .project_visit{
+
+                    width: 200px;
+                    height: 40px;
+                }
+            }
+
+
+            .carousel {
+                width: 1000px;
+                height: 450px;
+
+                .carousel-slide {
+                    width: 1000px;
+                    height: 450px;
+                }
+            }
+
+
+        }
+    }
+
+    // Skills //
+
+    .skills {
+
+        button {
+            font-size: 1.7em;
+            height: 65px;
+            width: 250px;
+        }
+    }
+
+    // Contact //
+    .contact {
+
+        .logo{
+            left: 70%;
+        }
+
+        .contact_title {
+            font-size: 4em;
+        }
+
+        .form_box {
+            gap: 15%;
+
+
+            p {
+                font-size: 6em;
+            }
+
+            .contact_form {
+                gap: 10em;
+
+
+                button {
+                    font-size: 2em;
+                    width: 150px;
+                    height: 70px;
+                }
+
+            }
+
+        }
+
+    }
+
+    // Footer //
+    .footer-data {
+        font-size: 1.5em;
+
+        svg{
+            height: 38px;
+            width: 38px;
+        }
+    }
+
+
+}
+
+
+@media (max-width: 672px) {
+
+    header {
+
+        .title-box {
+
+
+            .web-title {
+                text-align: center;
+                font-size: 3.5em;
+            }
+        }
+    }
+
+
+    // About me //
+
+    .about__me {
+        position: relative;
+        font-size: 0.7em;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20%;
+
+        h2 {
+            text-align: center;
+        }
+
+        .animated {
+            position: absolute;
+            width: 100%;
+            text-align: center;
+
+        }
+    }
+
+
+    // Projects //
+
+
+    .projects {
+
+        .project_box {
+
+
+            .project-card {
+                font-size: 1em;
+                height: 95px;
+                width: 250px;
+            }
+
+
+            .carousel {
+                width: 450px;
+                height: 200px;
+
+                .carousel-slide {
+                    width: 450px;
+                    height: 200px;
+                }
+            }
+
+
+        }
+    }
+
+
+
+    // Skills //
+
+    .skills {
+
+
+        .skill-box {
+            text-align: center;
+            font-size: 0.8em;
+        }
+    }
+
+
+    // Contact //
+
+    .contact {
+        font-size: 0.8em;
+
+        .form_box {
+            justify-content: space-between;
+
+            p {
+                font-size: 4em;
+                margin: 0 auto;
+            }
+        }
+    }
+
+    // Footer //
+
+    .footer {
+
+        .footer-data {
+            font-size: .7em;
+        }
+    }
+
+
+}
+
+@media (max-width: 760px) {
+    .about__me {
+        font-size: 0.7em;
+
+        svg{
+            width: 35px;
+            height: 35px;
+        }
+
+    }
+
+
+    .form_box{
+        p{
+            margin-right: 20%; ;
+        }
+
+        .logo{
+            opacity: .3;
+            left: 55%;
+            top: 57%;
+        }
+    }
+}
+
+
+
+@media (max-width: 476px) {
+
+
+    // Projects //
+
+
+    .projects {
+
+        .project_box {
+            margin-top: 4em;
+
+            .project-card {
+                font-size: 1em;
+                height: 85px;
+                width: 250px;
+            }
+
+
+            .carousel {
+                width: 350px;
+                height: 200px;
+
+                .carousel-slide {
+                    width: 350px;
+                    height: 200px;
+                }
+            }
+
+
+        }
+    }
+
+}
+
+
+@media (max-width: 476px) {
+
+    header {
+        height: 100vh;
+        margin-bottom: 0;
+        .container {
+
+            .nav__bar-author {
+                font-size: 1.5em;
+            }
+        }
+    }
+
+
+    .skills {
+
+        button {
+            font-size: 1.2em;
+        }
+
+        .skill-box {
+            font-size: 0.6em;
+            line-height: 1.5em;
+        }
+    }
+
+    .footer {
+
+        .footer-data {
+            font-size: 1em;
+            text-align: center;
+            line-height: 1em;
+
+            .social-list{
+
+                .resume{
+                    font-size: .2em;
+                }
+            }
+
+        }
+    }
+
+    .contact {
+        font-size: 0.8em;
+
+        .contact_title {
+            margin-bottom: 25%;
+        }
+
+        .form_box {
+            justify-content: space-between;
+
+            .logo{
+                opacity: .1;
+            }
+
+            p {
+                margin: 0 auto;
+                font-size: 4em;
+
+            }
+        }
+    }
+
+}

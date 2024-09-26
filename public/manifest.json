@@ -1,0 +1,15 @@
+{
+  "short_name": "Michał Bodys",
+  "name": "Michał Bodys",
+  "icons": [
+    {
+      "src": "public/assets/img/LogoMB.png",
+      "sizes": "196x196 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#fff",
+  "background_color": "#0A2824"
+}

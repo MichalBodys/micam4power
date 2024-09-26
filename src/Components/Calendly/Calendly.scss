@@ -1,0 +1,13 @@
+@import '../../Styles/App.scss';
+
+.calendly-hover {
+    cursor: pointer;
+   
+  }
+   
+  .calendly-link {
+    height: 0;
+    transition: 0.3s ease;
+    overflow: hidden;
+  }
+  

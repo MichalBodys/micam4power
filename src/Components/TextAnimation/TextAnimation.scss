@@ -1,0 +1,8 @@
+@import '../../Styles/App.scss';
+
+
+.animated{
+    opacity: 0;
+    font-weight: bold;
+    animation: text-change 4.5s  infinite;
+}
