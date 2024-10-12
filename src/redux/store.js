@@ -6,86 +6,45 @@ const reducer = (state, action) => {
 
 
 const initialState = {
-    projects: [
-        {
-            id: 1,
-            title: 'speach therapist website',
-            release: '04.2023',
-            tech: 'javascript, nunjucks, css, netlify cms',
-            url: 'https://logopeda-dialog.pl/',
-            photos: [
-              {
-                 nmb: 4,
-              src: './assets/img/magda1.png',
-              description: 'custom made layout'
-            },
-            {
-               nmb: 5,
-              src: './assets/img/magda2.png',
-              description: 'headless cms connected'
-            },
-            {
-               nmb: 6,
-              src: './assets/img/magda3.png',
-              description: 'responsive layout in all devices'
-            }
-
-          ]
-
-        },
-        {
-            id: 2,
-            title: 'simple todo list',
-            release: '11.2022',
-            tech: 'react, redux, react router, scss',
-            url: 'https://silver-sawine-23a225.netlify.app',
-            photos: [
-              {
-              nmb: 1,
-              src: './assets/img/todo1.png',
-              description: 'multiple cards variety'
-            },
-            {
-              nmb: 2,
-              src: './assets/img/todo2.png',
-              description: 'highlighting favorite positions'
-            },
-            {
-              nmb: 3,
-              src: './assets/img/todo3.png',
-              description: 'posibility to adding new lists'
-            }
-
-          ]
-        },
-        {
-          id: 3,
-          title: 'music app',
-          release: '26.07.2023',
-          tech: 'vue, pinia, firebase, vite, tailwind',
-          url: 'https://music-app-michalbodys.vercel.app/',
-          photos: [
-            {
-            nmb: 1,
-            src: './assets/img/ma1.png',
-            description: 'playing, adding ,commenting songs and translation of website language'
-          },
-          {
-            nmb: 2,
-            src: './assets/img/ma2.png',
-            description: 'account making and authorisation via firebase'
-          },
-          {
-            nmb: 3,
-            src: './assets/img/ma3.png',
-            description: 'posibility to upload your own music, changing genre and titles'
-          }
-
-        ]
-      }
-    ],
-
     sentences:['work well', 'connect people', 'look great'],
+    Cards: [
+      {
+        id: 1,
+        title: 'Card 1',
+        description: 'This is the description for card 1.',
+        img: 'https://via.placeholder.com/150', // Placeholder image
+      },
+      {
+        id: 2,
+        title: 'Card 2',
+        description: 'This is the description for card 2.',
+        img: 'https://via.placeholder.com/150',
+      },
+      {
+        id: 3,
+        title: 'Card 3',
+        description: 'This is the description for card 3.',
+        img: 'https://via.placeholder.com/150',
+      },
+      {
+        id: 4,
+        title: 'Card 4',
+        description: 'This is the description for card 4.',
+        img: 'https://via.placeholder.com/150',
+      },
+      {
+        id: 5,
+        title: 'Card 5',
+        description: 'This is the description for card 5.',
+        img: 'https://via.placeholder.com/150',
+      },
+      {
+        id: 6,
+        title: 'Card 6',
+        description: 'This is the description for card 6.',
+        img: 'https://via.placeholder.com/150',
+      },
+    ],
 };
 
 const store = createStore(

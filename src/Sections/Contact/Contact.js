@@ -38,7 +38,7 @@ const Contact = () => {
 
     return(
     <section id='contact' className='contact'>
-        <motion.div ref={ref} className='container'
+        <motion.div ref={ref} className='container flex gap-5 flex-col md:flex-row'
         variants={{
           hidden: {opacity: 0, y:75},
           visible: {opacity: 1, y:0 }
@@ -47,26 +47,45 @@ const Contact = () => {
         animate={mainControls}
         transition={{delay: 0.2 ,duartion: 1}}
         >
-            <h2 className='contact_title'>contact me </h2>
-          <div className='form_box'>
-            <img className='logo' src="../assets/img/logoMBW.png" alt="" />
-
-            <form ref={form} className='contact_form' onSubmit={sendEmail}>
-                <label htmlFor="name">name</label>
-                <input  ref={nameInput} type="text" name='user_name' placeholder='Full Name' required/>
-
-                <label htmlFor="phone" >phone</label>
-                <input ref={phoneInput}  type="number" name='user_phone' placeholder='number' required/>
-
-                <label htmlFor="email">e-mail</label>
-                <input  ref={emailInput} type="email" name='user_email' placeholder='E-mail adress' required/>
-
-                <label htmlFor="msg">message</label>
-                <textarea ref={msgInput} name='message' placeholder='your message' required></textarea>
-                <button type='submit' value='Send'>send</button>
-            </form>
-            <p>let's work togheter</p>
+          <div className='h-[400px] border shadow-lg shadow-cyan-500/50 md:w-1/3 flex flex-col rounded-lg contact-data relative overflow-hidden gap-3'>
+            <div className='m-6'>
+              <p className='text-xl font-bold'>Contact Information</p>
+              <p className='text-base'>Lets us help you become even greater at what you do.</p>
+            </div>
+            <div className='flex flex-col gap-4 m-6 text-base'>
+              <p><i class="fa-brands fa-linkedin"></i> <a href='https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/4925ba8d0bf80a4b1d8e8645d310590bf1b40b64/docs/rules/anchor-is-valid.md'>Linkedin</a></p>
+              <p><i class="fa-solid fa-phone"> </i> <a tel="123123123">nr 1231321312</a></p>
+              <p><i class="fa-solid fa-envelope"></i> <a email="emial">email@net.com</a></p>
+            </div>
           </div>
+          <div className='md:w-2/3 grid grid-cols-1 gap-6 form-box'>
+            <form action="#" method="POST">
+              <div className='flex gap-5 md:flex-row flex-col mb-5'>
+                <div className='w-1/2 border-b-white border-b'>
+                  <label for="name" class="block text-sm font-medium glowing-text">Your Name</label>
+                  <input type="text" id="name" name="name" class="mt-2 block w-full border-gray-300 " value="John Trangely"/>
+                </div>
+                <div className='w-1/2  border-b-white border-b'>
+                  <label for="email" class="block text-sm font-medium glowing-text">Your Email</label>
+                  <input type="email" id="email" name="email" class="mt-2 block w-full border-gray-300 " value="hello@nurency.com"/>
+                </div>
+              </div>
+              <div className='border-b-white border-b my-5'>
+                <label for="subject" class="block text-sm font-medium glowing-text">Your Subject</label>
+                <input type="text" id="subject" name="subject" class="mt-2 block w-full border-gray-300 " value="I want to hire you quickly"/>
+              </div>
+              <div className='border-b-white border-b my-5'>
+                <label for="message" class="block text-sm font-medium glowing-text">Message</label>
+                <textarea id="message" name="message" rows="4" class="block w-full border-gray-300 h-[200px]" placeholder="Write here your message"></textarea>
+              </div>
+              <div>
+                <button type="submit" class="font-bold py-2 px-4 rounded-md focus:outline-none">
+                  send Message
+                </button>
+              </div>
+            </form>
+          </div>
+      
         </motion.div>
     </section>
     )

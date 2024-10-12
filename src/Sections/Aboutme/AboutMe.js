@@ -2,16 +2,18 @@
 import { useEffect, useRef } from 'react'
 import './AboutMe.scss'
 import { motion, useInView, useAnimation } from 'framer-motion'
+import { useSelector } from 'react-redux';
+  
+
 
 
 const AboutMe = () => {
 
   const ref = useRef(null);
-  // const refr = useRef(null);
   const isInView = useInView(ref, { once: true })
-
   const leftControls = useAnimation();
   const rightControls = useAnimation();
+  const cards = useSelector((state) => state.Cards);
 
   useEffect(() => {
    if(isInView){
@@ -21,7 +23,7 @@ const AboutMe = () => {
   }, )
 
     return(
-        <section ref={ref} id='about' className='container about__me'>
+        <section ref={ref} id='about' className='container about__me flex justify-center'>
           <motion.div
           variants={{
             hidden: { x: 1000},
@@ -31,42 +33,16 @@ const AboutMe = () => {
           animate={rightControls}
           transition={{duration: 1}}
           className='about_me-cards'>
-            <div class="card">
+            {cards.map((card) => (
+            <div class="card w-[250px]">
               <div class="img one"></div>
               <div class="text text-one">
-                <p className='text-base mb-3 font-bold'>las zielony</p>
-                <p className='text-xs'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                <p className='text-base mb-3 font-bold'>{card.title}</p>
+                <hr className="shadow-cyan-500/50" />
+                <p className='text-xs mt-5'>{card.description}</p>
               </div>
             </div>
-            <div class="card">
-              <div class="img one"></div>
-              <div class="text text-one">
-                <p className='text-base mb-3 font-bold'>las zielony</p>
-                <p className='text-xs'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="img one"></div>
-              <div class="text text-one">
-                <p className='text-base mb-3 font-bold'>las zielony</p>
-                <p className='text-xs'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="img one"></div>
-              <div class="text text-one">
-                <p className='text-base mb-3 font-bold'>las zielony</p>
-                <p className='text-xs'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="img one"></div>
-              <div class="text text-one">
-                <p className='text-base mb-3 font-bold'>las zielony</p>
-                <p className='text-xs'>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-              </div>
-            </div>
-
+            ))}
           </motion.div>
     </section>
     )

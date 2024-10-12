@@ -16,10 +16,7 @@ header {
         opacity: 0;
         font-size: 5em;
         color: #fff;
-        text-shadow:
-            0 0 7px #fff,
-            0 0 10px #fff,
-            0 0 21px #fff,;
+        text-shadow: 0 0 2px #fff, 0 0 1px #fff, 0 0 10px #fff;;
         line-height: 1.5em;
         animation: ShowText 1.5s .3s forwards;
         transition: opacity;

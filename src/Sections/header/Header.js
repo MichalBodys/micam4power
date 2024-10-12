@@ -6,7 +6,7 @@ import { useState, useEffect } from 'react'
 
 
 
-const Header = (params) => { 
+const Header = ({ openModalWithParams }) => { 
     const [visibleIndex, setVisibleIndex] = useState(0);
 
     const spans = [
@@ -25,10 +25,10 @@ const Header = (params) => {
 
     return(
         <header id='header' >
-            <NavBar/>
+            <NavBar openModalWithParams={openModalWithParams}/>
             <div className='container'>
-                <div className='title-box'>
-                <h1 className='web-title'>Wir verlassen die<br/>komfortzone...</h1>
+                <div className='title-box bebas-neue-regular'>
+                <h1 className='web-title'>Wir verlassen die komfortzone...</h1>
               <p className='web-title-description'>
                 {spans.map((text, index) =>(
                    <span

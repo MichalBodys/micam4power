@@ -4,6 +4,37 @@
 @import './Settings.scss';
 @import './Animations.scss';
 
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 *,
 *::before,
 *::after {
@@ -57,16 +88,17 @@ a{
 .glowing-text{
   color: #fff;
   text-shadow:
-  0 0 7px #fff,
-  0 0 10px #fff,
-  0 0 21px #fff,;
+  0 0 1px #fff,
+  0 0 5px #fff,
+  0 0 10px #fff,;
 }
+
 
 
 
 body {
   background: linear-gradient(198deg, rgb(6 3 59) 31%, rgb(27 27 75) 65%, rgb(2, 151, 182) 100%);
-  font-family: 'Major Mono Display', monospace;
+  font-family: "Roboto", sans-serif;
   font-size: $base-size ;
   color: white;
   letter-spacing: 0.7px;
@@ -80,3 +112,24 @@ body {
   width: 100%;
 }
 
+
+button {font-family: "Roboto", sans-serif;
+  position: absolute;
+  color: $color-main;
+  border: $color-main 0.125em solid;
+  border-radius: $radius;
+  text-shadow: 0 0 0.125em hsla(111, 82%, 33%, 0.3);
+  box-shadow: inset 0 0 0.5em 0 $color-main, 0 0 0.5em 0 $color-main;
+  background: none;
+  cursor: pointer;
+  z-index: 2;
+  transition: color .3s, background .3s;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+button:hover{
+  background: $color-main;
+  color: black;
+}

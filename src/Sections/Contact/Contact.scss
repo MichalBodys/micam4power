@@ -4,35 +4,21 @@
     position: relative;
     z-index: 1;
     overflow: hidden;
+    height: fit-content;
 
-    .logo{
-        position: absolute;
-        z-index: -1;
-        left: 72%;
-        top: 60%;
-        transform: translate(-50%, -50%);
-    }
+    .form-box {
 
-    .contact_title {
-        text-align: center;
-        font-size: 3.5em;
-        margin-bottom: 10%;
-    }
-
-    .form_box {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-
-
-
-        p {
-            writing-mode: vertical-lr;
-            font-family: 'Major Mono Display', monospace;
-            font-size: 3.5em;
-            margin-left: 25%;
+        input, textarea{
+            background: none;
+            border-radius: none;
         }
 
+        input:focus, textarea:focus{
+            border-color: transparent; 
+            box-shadow: none; 
+            outline: none;
+        }
+      
         .contact_form {
             display: flex;
             flex-direction: column;
