@@ -34,9 +34,12 @@ const AboutMe = () => {
           transition={{duration: 1}}
           className='about_me-cards'>
             {cards.map((card) => (
-            <div class="card w-[250px]">
-              <div class="img one"></div>
-              <div class="text text-one">
+            <div key={card.id}className="card w-[250px]">
+              <div className="img one flex justify-center items-center flex-col">
+              <div dangerouslySetInnerHTML={{ __html: card.svg }} />
+              <p className='text-xs text-center mt-2'>{card.title}</p>
+              </div>
+              <div className="text text-one">
                 <p className='text-base mb-3 font-bold'>{card.title}</p>
                 <hr className="shadow-cyan-500/50" />
                 <p className='text-xs mt-5'>{card.description}</p>

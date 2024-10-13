@@ -6,14 +6,18 @@ const UberUns = () => {
             <div className="aboutUss h-lvh flex flex-col my-10"> 
                   <div className=' w-screen flex'>
                     <div className='w-1/2 flex justify-center items-center'>
-                      <p className='w-3/4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                      <p className='w-3/4 text-sm'>Wir blicken auf 35 Jahre Marketing- und Vertriebserfahrung zurück und mit dieser unterstützen wir die kleinen und mittelständischen Unternehmen im DACH-Raum.
+                      <br/><br/>
+                      Wir kennen die Herausforderungen, die unser Mittelstand täglich zu meistern hat, daher unterstützen wir sowohl im Marketing als auch bei der Digitalisierung und Skalierung von Geschäftsmodellen, denn die Zukunft ist digital.</p>
                     </div>
                     <div className="parallax w-1/2"></div>
                   </div>
                   <div className=' w-screen flex'>
                     <div className="parallax w-1/2"></div>
                     <div className='w-1/2 flex justify-center items-center'>
-                      <p className='w-3/4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+                      <p className='w-3/4 text-sm'>Unsere Unterstützung geht dabei weit über die reine Beratung hinaus. Wir begleiten unsere Kunden, auf Wunsch, bei jedem einzelnen Schritt. Praxisnahe und nachhaltige Lösungen praxisnah sind uns wichtig, damit unsere Partner nicht nur kurzfristige Erfolge erzielen, sondern sich langfristig im Wettbewerb behaupten können.
+                      <br/><br/>
+                      Wir glauben daran, dass echte Veränderungen nur durch gemeinsame Anstrengungen zu meistern sind. Deshalb stehen wir leidenschaftlich hinter jedem Projekt. Wir freuen uns, unsere Partner auf ihrem Weg in die digitale und skalierbare Zukunft zu begleiten.</p>
                     </div>
                     </div>
             </div>

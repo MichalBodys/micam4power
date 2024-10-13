@@ -5,10 +5,6 @@ import { motion, useInView, useAnimation } from 'framer-motion'
 
 const Contact = () => {
 
-  const nameInput = useRef()
-  const phoneInput = useRef()
-  const emailInput = useRef()
-  const msgInput = useRef()
 
   const form = useRef();
   const ref = useRef(null)
@@ -53,33 +49,33 @@ const Contact = () => {
               <p className='text-base'>Lets us help you become even greater at what you do.</p>
             </div>
             <div className='flex flex-col gap-4 m-6 text-base'>
-              <p><i class="fa-brands fa-linkedin"></i> <a href='https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/4925ba8d0bf80a4b1d8e8645d310590bf1b40b64/docs/rules/anchor-is-valid.md'>Linkedin</a></p>
-              <p><i class="fa-solid fa-phone"> </i> <a tel="123123123">nr 1231321312</a></p>
-              <p><i class="fa-solid fa-envelope"></i> <a email="emial">email@net.com</a></p>
+              <p><i className="fa-brands fa-linkedin"></i> <a href='https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/4925ba8d0bf80a4b1d8e8645d310590bf1b40b64/docs/rules/anchor-is-valid.md'>Linkedin</a></p>
+              <p><i className="fa-solid fa-phone"> </i> <a tel="123123123">nr 1231321312</a></p>
+              <p><i className="fa-solid fa-envelope"></i> <a email="emial">email@net.com</a></p>
             </div>
           </div>
           <div className='md:w-2/3 grid grid-cols-1 gap-6 form-box'>
             <form action="#" method="POST">
               <div className='flex gap-5 md:flex-row flex-col mb-5'>
                 <div className='w-1/2 border-b-white border-b'>
-                  <label for="name" class="block text-sm font-medium glowing-text">Your Name</label>
-                  <input type="text" id="name" name="name" class="mt-2 block w-full border-gray-300 " value="John Trangely"/>
+                  <label htmlFor="name" className="block text-sm font-medium glowing-text">Your Name</label>
+                  <input type="text" id="name" name="name" className="mt-2 block w-full border-gray-300 "/>
                 </div>
                 <div className='w-1/2  border-b-white border-b'>
-                  <label for="email" class="block text-sm font-medium glowing-text">Your Email</label>
-                  <input type="email" id="email" name="email" class="mt-2 block w-full border-gray-300 " value="hello@nurency.com"/>
+                  <label htmlFor="email" className="block text-sm font-medium glowing-text">Your Email</label>
+                  <input type="email" id="email" name="email" className="mt-2 block w-full border-gray-300 " />
                 </div>
               </div>
               <div className='border-b-white border-b my-5'>
-                <label for="subject" class="block text-sm font-medium glowing-text">Your Subject</label>
-                <input type="text" id="subject" name="subject" class="mt-2 block w-full border-gray-300 " value="I want to hire you quickly"/>
+                <label htmlFor="subject" className="block text-sm font-medium glowing-text">Your Subject</label>
+                <input type="text" id="subject" name="subject" className="mt-2 block w-full border-gray-300 " />
               </div>
               <div className='border-b-white border-b my-5'>
-                <label for="message" class="block text-sm font-medium glowing-text">Message</label>
-                <textarea id="message" name="message" rows="4" class="block w-full border-gray-300 h-[200px]" placeholder="Write here your message"></textarea>
+                <label htmlFor="message" className="block text-sm font-medium glowing-text">Message</label>
+                <textarea id="message" name="message" rows="4" className="block w-full border-gray-300 h-[200px]" placeholder="Write here your message"></textarea>
               </div>
               <div>
-                <button type="submit" class="font-bold py-2 px-4 rounded-md focus:outline-none">
+                <button type="submit" className="font-bold py-2 px-4 rounded-md focus:outline-none">
                   send Message
                 </button>
               </div>

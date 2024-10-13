@@ -7,8 +7,6 @@ import Calendly from '../Calendly/Calendly';
 
 
 const NavBar = ({ openModalWithParams }) => {
-
-  const year = (new Date).getFullYear();
   const [isActive, setActive] = useState(false)
 
   const clickHandler = () => {
@@ -20,7 +18,7 @@ const NavBar = ({ openModalWithParams }) => {
         <nav className='nav__bar uppercase' >
           <div className='nav__bar-author'> 
             <div>
-              <a href='#header'><h2 className='author'>micam4power {year}</h2></a>
+              <a href='#header'><h2 className='author'>ADDDECODER</h2></a>
             </div>
           </div>
           <div className={`nav__bar-links ${isActive ? 'active': ''}`}  style={isActive ? {clipPath: 'circle(140% at 80% 90%)'} : {} }>
