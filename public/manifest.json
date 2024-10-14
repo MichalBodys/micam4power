@@ -1,9 +1,9 @@
 {
-  "short_name": "Michał Bodys",
-  "name": "Michał Bodys",
+  "short_name": "ADDECODER",
+  "name": "ADDECODER",
   "icons": [
     {
-      "src": "public/assets/img/LogoMB.png",
+      "src": "",
       "sizes": "196x196 32x32 24x24 16x16",
       "type": "image/x-icon"
     }

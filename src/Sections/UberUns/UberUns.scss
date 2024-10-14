@@ -1,15 +1,22 @@
 @import '../../Styles/App.scss';
-
+.profile-photo{
+    background-image: url('../../../public/assets/img/iłek.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
 .parallax {
     /* The image used */
-    background-image: url('../../../public/assets/img/iłek.jpg');
+    background-image: url('../../../public/assets/img/about1.jpeg');
   
     /* Set a specific height */
-    min-height: 400px;
+    
+   height: 400px;
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-   background-size: inherit;
+    background-size: cover;
   }
+
+ 

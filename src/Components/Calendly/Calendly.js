@@ -10,8 +10,8 @@ const Calendly = ({ openModalWithParams }) => {
   };
     
     return(
-    <div>
-      <div className="">
+    <div className="calendly">
+      <div>
         <button className="block animate-pulse calendly-hover p-2" onClick={handleOpenModal}>
          Termin Buchen
         </button>

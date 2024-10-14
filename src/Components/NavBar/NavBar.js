@@ -22,12 +22,12 @@ const NavBar = ({ openModalWithParams }) => {
             </div>
           </div>
           <div className={`nav__bar-links ${isActive ? 'active': ''}`}  style={isActive ? {clipPath: 'circle(140% at 80% 90%)'} : {} }>
-              <a href="#about" className='nav__link' onClick={clickHandler}>start</a>
-              <a href="#skills" className='nav__link' onClick={clickHandler}>leistungen</a>
-              <a href="#projects" className='nav__link' onClick={clickHandler} >über uns</a>
+              <a href="#header" className='nav__link' onClick={clickHandler}>start</a>
+              <a href="#services" className='nav__link' onClick={clickHandler}>leistungen</a>
+              <a href="#UberUns" className='nav__link' onClick={clickHandler} >über uns</a>
               <a href="#contact" className='nav__link' onClick={clickHandler}>kontakt</a>
           </div>
-          <Calendly openModalWithParams={openModalWithParams}/>
+          <Calendly className openModalWithParams={openModalWithParams}/>
           <div className={`nav__burger-icon ${isActive ? 'close' : ''}`} onClick={clickHandler}>
               <div className='burger-icon-line'></div>
           </div>

@@ -29,6 +29,12 @@
         }
     }
 
+    .calendly{
+        position: fixed;
+        right: 2%;
+        top: 50px;
+    }
+
     .nav__bar {
 
         .nav__burger-icon {
@@ -499,5 +505,13 @@
             }
         }
     }
+.parallax{
+    background-image: url('../../public/assets/img/about1.jpeg');
+    height: 400px;
+    background-attachment:initial;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 185%;
+}
 
 }

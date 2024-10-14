@@ -29,12 +29,7 @@ const Header = ({ openModalWithParams }) => {
             <NavBar openModalWithParams={openModalWithParams}/>
             <div className='container'>
                 <div className='title-box bebas-neue-regular'>
-                  <div className='mb-20'>
-                    <p className='text-lg'>Willkommen bei ADDECODER, Ihrem Partner für erfolgreiches Marketing!</p>
-                    <p className='text-lg'>Wir entwickeln maßgeschneiderte Strategien, die Ihre Produkte und Ihr Unternehmen
-                      ins Rampenlicht rücken und Ihr Wachstum nachhaltig fördern. </p>
-                  </div>
-                <h1 className='web-title'>Wir verlassen die komfortzone...</h1>
+                <h1 className='web-title'>Optimiere Dein Marketing mit ADDECODER…</h1>
                 <p className='web-title-description'>
                 {spans.map((text, index) =>(
                    <span
@@ -45,8 +40,12 @@ const Header = ({ openModalWithParams }) => {
                    </span>
                 ))}
                 </p>
-                <p className='mt-20 text-lg'>Wir entwickeln maßgeschneiderte Strategien, die Ihre Produkte und Ihr Unternehmen
-                ins Rampenlicht rücken und Ihr Wachstum nachhaltig fördern. </p>
+                  <div className='mt-10'>
+                    <p className='text-lg'>Willkommen bei ADDECODER, Ihrem Partner für erfolgreiches Marketing!</p>
+                    <p className='text-lg my-5'>Wir entwickeln maßgeschneiderte Strategien, die Ihre Produkte und Ihr Unternehmen
+                      ins Rampenlicht rücken und Ihr Wachstum nachhaltig fördern. </p>
+                    <p className='text-lg'>Unser erfahrenes Team kombiniert Kreativität mit datenbasierter Planung, um Ihre Ziele effizient zu erreichen. </p>
+                  </div>
                 </div>
             </div>
 
