@@ -93,11 +93,14 @@ a{
   0 0 10px #fff,;
 }
 
+.swiper-pagination-bullet-active{
+  background-color: #fff !important;
+}
 
 
 
 body {
-  background: linear-gradient(198deg, rgb(0, 0, 0) 3%, rgb(64 91 103) 25%, rgb(54, 70, 88) 100%);
+  background:linear-gradient(198deg, rgb(0, 0, 0) 3%, rgb(64, 91, 103) 25%, #15292b, rgb(159, 178, 185) 100%);
   font-family: "Roboto", sans-serif;
   font-size: $base-size ;
   color: white;

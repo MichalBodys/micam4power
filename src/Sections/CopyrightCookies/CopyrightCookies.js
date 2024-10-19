@@ -6,27 +6,27 @@ const CopyrightCookies = () => {
       <p className="text-sm">
       mpressum
       MI Consulting and more e.K. <br/>
-      Inhaber: Ireneusz Masarczyk  <br/>
-      Astrid-Lindgren-Str. 18  <br/>
-      21423 Winsen (Luhe)  <br/>
+      Inhaber: Ireneusz Masarczyk<br/>
+      Astrid-Lindgren-Str. 18<br/>
+      21423 Winsen (Luhe)<br/>
       Deutschland<br/>
 
-      Telefon: +49 (0) 171 6271567  <br/>
-      E-Mail: info@addecoder.de  <br/>
-      Website: www.addecoder.de<br/>
+      Telefon:+49 (0) 171 6271567<br/>
+      E-Mail:info@addecoder.de<br/>
+      Website:www.addecoder.de<br/>
 
       Rechtsform:
-      Eingetragener Kaufmann (e.K.)  <br/>
-      Registergericht: Amtsgericht Lüneburg  <br/>
+      Eingetragener Kaufmann (e.K.)<br/>
+      Registergericht: Amtsgericht Lüneburg<br/>
       Registernummer: HRA [beantragt]<br/>
 
       Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:<br/>
       [beantragt]
 
       Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:<br/>
-      Ireneusz Masarczyk  <br/>
-      Astrid-Lindgren-Str. 18  <br/>
-      21423 Winsen (Luhe)  <br/>
+      Ireneusz Masarczyk<br/>
+      Astrid-Lindgren-Str. 18<br/>
+      21423 Winsen (Luhe)<br/>
       Deutschland<br/>
 
       Streitschlichtung:<br/>
@@ -35,9 +35,9 @@ const CopyrightCookies = () => {
       Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.<br/>
 
       Urheberrechtliche Hinweise:<br/>
-      © LinkedIn-Icon – Flaticon – Autor Freepik<br/>
-      © Instagram-Icon – Flaticon – Autor Freepik<br/>
-      © Facebook-Icon – Flaticon – Autor Pixel perfect<br/>
+      © LinkedIn-Icon - Flaticon - Autor Freepik<br/>
+      © Instagram-Icon - Flaticon - Autor Freepik<br/>
+      © Facebook-Icon - Flaticon - Autor Pixel perfect<br/>
       Alle weiteren, genutzten Bilder sind eigens fotografiert. Die Lizenzrechte liegen somit bei der MI Consulting and more e.K.<br/>
       <br/>
       Haftungsausschluss (Disclaimer)

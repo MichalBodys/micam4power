@@ -6,7 +6,7 @@
 }
 .parallax {
     /* The image used */
-    background-image: url('../../../public/assets/img/about1.jpeg');
+    background-image: url('../../../public/assets/img/paralax2.jpg');
   
     /* Set a specific height */
     
@@ -16,7 +16,7 @@
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
 
  

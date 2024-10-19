@@ -1,5 +1,6 @@
 import './Skills.scss'
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Pagination } from 'swiper/modules';
 
 import 'swiper/css';  // Core Swiper styles
 import 'swiper/css/navigation';  // Navigation module styles
@@ -13,12 +14,16 @@ const Skills = () => {
    
 
   return (
-    <div className="w-full flex justify-center items-center container">
+    <div className="w-full flex justify-center items-center container relative">
       <Swiper
         slidesPerView={3}  
         centeredSlides={true}  
-        spaceBetween={40}  
+        spaceBetween={0}  
         loop={true} 
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
         className="mySwiper flex justify-center items-center"
       >
         <SwiperSlide className='flex justify-center items-center shadow-sm shadow-black'>
@@ -49,6 +54,7 @@ const Skills = () => {
           </div>
         </SwiperSlide>
       </Swiper>
+
     </div>
   );
 };

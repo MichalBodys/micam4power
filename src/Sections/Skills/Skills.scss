@@ -27,3 +27,18 @@
         transform: scale(0.5);  /* Slightly smaller for the next/prev slides */
         opacity: 0.8;  /* Reduce opacity for the next/prev slides */
     }
+
+    .scroll-container {
+        overflow: hidden; 
+        position: relative; 
+        height: 2rem; 
+        padding-right: 10px;
+    }
+    
+    .scroll-text {
+        display: flex; // Use flex to allow horizontal scrolling
+        animation: scroll 20s linear infinite; // Define the animation duration and type
+        white-space: nowrap; // Prevent line breaks for scrolling
+        mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0.5) 90%, rgba(0, 0, 0, 0) 100%); // Creates a fading effect on both sides
+        -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 10%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 1) 70%, rgba(0, 0, 0, 0.5) 90%, rgba(0, 0, 0, 0) 100%); // For Safari support
+    }

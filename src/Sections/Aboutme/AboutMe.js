@@ -23,7 +23,7 @@ const Services = () => {
   }, )
 
     return(
-        <section ref={ref} id='services' className='container about__me flex justify-center'>
+        <section ref={ref} id='services' className='container services flex justify-center'>
           <motion.div
           variants={{
             hidden: { x: 1000},
@@ -32,17 +32,17 @@ const Services = () => {
           initial="hidden"
           animate={rightControls}
           transition={{duration: 1}}
-          className='about_me-cards'>
+          className='services-cards'>
             {cards.map((card) => (
-            <div key={card.id}className="card w-[300px]">
+            <div key={card.id}className="card h-[150px] w-[255px]">
               <div className="img one flex justify-center items-center flex-col">
-              <div dangerouslySetInnerHTML={{ __html: card.svg }} />
-              <p className='text-xs text-center mt-2'>{card.title}</p>
+              <div className='text-xl' dangerouslySetInnerHTML={{ __html: card.svg }} />
+              <p className='text-xs text-center mt-2 card-bg'>{card.title}</p>
               </div>
               <div className="text text-one">
-                <p className='text-sm mb-3 font-bold'>{card.description1}</p>
+                <p className='text-sm mb-3 font-bold h-1/3'>{card.description1}</p>
                 <hr className="shadow-cyan-500/50" />
-                <p className='text-xs mt-5'>{card.description2}</p>
+                <p className='text-xs mt-5 h-1/3'>{card.description2}</p>
               </div>
             </div>
             ))}
