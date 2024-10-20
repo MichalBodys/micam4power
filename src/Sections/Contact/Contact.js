@@ -57,7 +57,7 @@ const Contact = () => {
         <div className='h-[400px] border shadow-md shadow-stone-50 md:w-1/3 flex flex-col rounded-lg contact-data relative overflow-hidden gap-3'>
           <div className='m-6'>
             <p className='text-xl font-bold'>Kontaktinformationen</p>
-            <p className='text-base'> Lassen Sie uns Ihnen helfen, noch besser zu werden in dem, was Sie tun.</p>
+            <p className='text-base'>Lass uns darüber sprechen, wie wir Dein Unternehmen im Wachstumsprozess unterstützen können.</p>
           </div>
           <div className='flex flex-col gap-4 m-6 text-base'>
             <p><i className="fa-brands fa-linkedin"></i> <a href='https://www.linkedin.com/in/ireneusz-masarczyk/'>Linkedin</a></p>
@@ -69,11 +69,11 @@ const Contact = () => {
         <div className='md:w-2/3 grid grid-cols-1 gap-6 form-box'>
           <form ref={form} onSubmit={sendEmail}> 
             <div className='flex gap-5 md:flex-row flex-col mb-5'>
-              <div className='w-1/2 border-b-white border-b'>
+              <div className='md:w-1/2 border-b-white border-b'>
                 <label htmlFor="name" className="block text-sm font-medium glowing-text">Ihr Name</label>
                 <input type="text" id="name" name="from_name" className="mt-2 block w-full border-gray-300" required />
               </div>
-              <div className='w-1/2  border-b-white border-b'>
+              <div className='md:w-1/2  border-b-white border-b'>
                 <label htmlFor="email" className="block text-sm font-medium glowing-text">Ihre E-Mail</label>
                 <input type="email" id="email" name="user_email" className="mt-2 block w-full border-gray-300" required />
               </div>

@@ -41,7 +41,7 @@ const Services = () => {
               </div>
               <div className="text text-one">
                 <p className='text-sm mb-3 font-bold h-1/3'>{card.description1}</p>
-                <hr className="shadow-cyan-500/50" />
+                <hr className="shadow-cyan-500/50 mt-10" />
                 <p className='text-xs mt-5 h-1/3'>{card.description2}</p>
               </div>
             </div>

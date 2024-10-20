@@ -55,7 +55,7 @@ const Header = ({ openModalWithParams }) => {
                 {spans.map((text, index) =>(
                    <span
                         key={index}
-                        className='transition-opacity text-xl '
+                        className='transition-opacity text-xl me-5'
                         style={{ opacity: visibleIndex === index ? 1 : 0, transition: 'opacity 0.5s ease-in-out' }}>
                         {text}
                    </span>
@@ -65,7 +65,7 @@ const Header = ({ openModalWithParams }) => {
                     <div className="scroll-text text-lg" ref={scrollTextRef}>
                         <span>für mehr mitarbeiterbindung</span>
                         <span className='mx-5'> für mehr kunden</span>
-                        <span> Tfür mehr erfolg</span>                   
+                        <span> für mehr erfolg</span>                   
                     </div>
                   </div>
                   <div className='mt-20'>
