@@ -33,7 +33,7 @@ const Contact = () => {
     });
 
     // Now you can send this data using emailJS or any other method
-    emailjs.sendForm('service_86dnt9n', 'template_aby0s18', form.current, 'joQSTcLN9fUXb2Sqt')
+    emailjs.sendForm('service_h363y5u', 'template_fxu7tnr', form.current, 'oNIY7c-goN_Klpfbx')
       .then((result) => {
         console.log(result.text);
         console.log('Message successfully sent!');
@@ -93,6 +93,7 @@ const Contact = () => {
             </div>
           </form>
         </div>
+  
       </motion.div>
     </section>
   );

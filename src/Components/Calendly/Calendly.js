@@ -13,7 +13,7 @@ const Calendly = ({ openModalWithParams }) => {
     <div className="calendly">
       <div>
         <button className="block animate-pulse calendly-hover p-2" onClick={handleOpenModal}>
-         Termin Buchen
+         <a href="https://calendly.com/addecoder/strategiecall">Termin Buchen</a>
         </button>
       </div>
     </div>
