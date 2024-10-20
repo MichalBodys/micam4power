@@ -30,17 +30,18 @@ const Skills = () => {
         modules={[Pagination, Autoplay]}
         className="mySwiper flex justify-center items-center"
       >
-        <SwiperSlide className='flex justify-center items-center shadow-sm shadow-black w-[170px] md:w-auto'>
-          <div className="slide-content rounded-lg text-center">
-            <h2 className="text-base font-bold">Numerus</h2>
-            <p className='text-xs p-2 sm:p-5'>Anhand von echten Zahlen machen wir Dein Marketing planbar und skalierbar.</p>
-          </div>
-        </SwiperSlide>
 
         <SwiperSlide className='flex justify-center items-center shadow-sm shadow-black w-[170px] md:w-auto'>
           <div className="slide-content rounded-lg text-center">
             <h2 className="text-base font-bold">Quo Vadis</h2>
             <p className='text-xs p-2 sm:p-5'>Wohin möchtest Du? Das ist unsere Zentrale Frage auf dem Weg zu Deinem Erfolg.</p>
+          </div>
+        </SwiperSlide>
+
+        <SwiperSlide className='flex justify-center items-center shadow-sm shadow-black w-[170px] md:w-auto'>
+          <div className="slide-content rounded-lg text-center">
+            <h2 className="text-base font-bold">Navigate</h2>
+            <p className='text-xs p-2 sm:p-5'>Wir zeigen Dir den Weg, analysieren ihn laufend und optimieren bei Bedarf die Route.</p>
           </div>
         </SwiperSlide>
 
@@ -53,10 +54,11 @@ const Skills = () => {
 
         <SwiperSlide className='flex justify-center items-center shadow-sm shadow-black w-[170px] md:w-auto'>
           <div className="slide-content rounded-lg text-center">
-            <h2 className="text-base font-bold">Navigate</h2>
-            <p className='text-xs p-2 sm:p-5'>Wir zeigen Dir den Weg, analysieren ihn laufend und optimieren bei Bedarf die Route.</p>
+            <h2 className="text-base font-bold">Numerus</h2>
+            <p className='text-xs p-2 sm:p-5'>Anhand von echten Zahlen machen wir Dein Marketing planbar und skalierbar.</p>
           </div>
         </SwiperSlide>
+
       </Swiper>
 
     </div>

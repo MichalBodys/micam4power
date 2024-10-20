@@ -4,7 +4,7 @@ const CopyrightCookies = () => {
     <div className="copyright-cookies  flex items-center flex-col mt-10 mx-5">
       <h1 className=" text-lg">Copyright and Cookies</h1>
       <p className="text-sm">
-      mpressum
+      <span className="mb-3">Impressum</span>Impressum<br/>
       MI Consulting and more e.K. <br/>
       Inhaber: Ireneusz Masarczyk<br/>
       Astrid-Lindgren-Str. 18<br/>

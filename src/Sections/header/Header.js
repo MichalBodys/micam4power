@@ -63,8 +63,8 @@ const Header = ({ openModalWithParams }) => {
                 </p>
                 <div className="scroll-container md:hidden">
                     <div className="scroll-text text-lg" ref={scrollTextRef}>
-                        <span>für mehr mitarbeiterbindung</span>
-                        <span className='mx-5'> für mehr kunden</span>
+                        <span className='mx-5'>für mehr mitarbeiterbindung</span>
+                        <span className='me-5'> für mehr kunden</span>
                         <span> für mehr erfolg</span>                   
                     </div>
                   </div>

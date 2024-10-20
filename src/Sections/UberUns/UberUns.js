@@ -27,8 +27,7 @@ const UberUns = () => {
                     Auf Wunsch begleiten wir unsere Partner bei jedem einzelnen Schritt. <br/>
                     Praxisnahe und nachhaltige Lösungen sind uns wichtig, damit unsere Partner nicht nur kurzfristige Erfolge erzielen, sondern sich langfristig im Wettbewerb behaupten können. <br/><br/>
 
-                    Wir glauben daran, dass echte Veränderungen durch gemeinsame Anstrengungen besser <br/>
-                    zu meistern sind. <br/>
+                    Wir glauben daran, dass echte Veränderungen durch gemeinsame Anstrengungen besser zu meistern sind. <br/>
                     Deshalb stehen wir mit Leidenschaft hinter jedem unserer Projekte. Wir freuen uns, unsere Partner auf ihrem Weg in die digitale und skalierbare Zukunft zu begleiten.<br/>
                     </p>
                   </div>
