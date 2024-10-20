@@ -63,15 +63,14 @@ const Header = ({ openModalWithParams }) => {
                 </p>
                 <div className="scroll-container md:hidden">
                     <div className="scroll-text text-lg" ref={scrollTextRef}>
-                        <span>für mehr mitarbeiterbindung , </span>
-                        <span> für mehr kunden , </span>
-                        <span> Tfür mehr erfolg , </span>                   
+                        <span>für mehr mitarbeiterbindung</span>
+                        <span className='mx-5'> für mehr kunden</span>
+                        <span> Tfür mehr erfolg</span>                   
                     </div>
                   </div>
-                  <div>
-                    <p className='text-lg my-5 text-center md:text-start'>Wir entwickeln maßgeschneiderte Strategien, die Ihre Produkte und Ihr Unternehmen
-                      ins Rampenlicht rücken und Ihr Wachstum nachhaltig fördern. </p>
-                    <p className='text-lg text-center md:text-start'>Unser erfahrenes Team kombiniert Kreativität mit datenbasierter Planung, um Ihre Ziele effizient zu erreichen. </p>
+                  <div className='mt-20'>
+                    <p className='text-lg my-5 text-center md:text-start'>Wir entwickeln maßgeschneiderte und kosteneffiziente Marketingmaßnahmen, die Dein organisches Wachstum fördern. </p>
+                    <p className='text-lg text-center md:text-start'>Bei der Entwicklung der passenden Marketingkampagnen kombinieren wir Kreativität mit datenbasierter Planung, damit Du planbar Deine Ziele erreichen kannst.  </p>
                   </div>
                 </div>
             </div>

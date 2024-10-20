@@ -36,7 +36,7 @@ const Services = () => {
             {cards.map((card) => (
             <div key={card.id}className="card h-[150px] w-[255px]">
               <div className="img one flex justify-center items-center flex-col">
-              <div className='text-xl' dangerouslySetInnerHTML={{ __html: card.svg }} />
+              <div className='text-xl scale-150 mb-2' dangerouslySetInnerHTML={{ __html: card.svg }} />
               <p className='text-xs text-center mt-2 card-bg'>{card.title}</p>
               </div>
               <div className="text text-one">

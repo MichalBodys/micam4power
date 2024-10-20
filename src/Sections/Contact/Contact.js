@@ -60,8 +60,8 @@ const Contact = () => {
             <p className='text-base'> Lassen Sie uns Ihnen helfen, noch besser zu werden in dem, was Sie tun.</p>
           </div>
           <div className='flex flex-col gap-4 m-6 text-base'>
-            <p><i className="fa-brands fa-linkedin"></i> <a href='https://linkedin.com'>Linkedin</a></p>
-            <p><i className="fa-brands fa-facebook"></i> <a href='https://facebook.com'>Facebook</a></p>
+            <p><i className="fa-brands fa-linkedin"></i> <a href='https://www.linkedin.com/in/ireneusz-masarczyk/'>Linkedin</a></p>
+            <p><i className="fa-brands fa-facebook"></i> <a href='https://www.facebook.com/profile.php?id=61560640106719'>Facebook</a></p>
             <p><i className="fa-solid fa-phone"> </i> <a href="tel:+491716271567">+49 (0) 171 6271567</a></p>
             <p><i className="fa-solid fa-envelope"></i> <a href="mailto:info@addecoder.de">info@addecoder.de</a></p>
           </div>
