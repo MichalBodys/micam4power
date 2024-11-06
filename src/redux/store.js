@@ -47,7 +47,7 @@ const initialState = {
       {
         id: 5,
         svg:'<svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-world"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M3 12a9 9 0 1 0 18 0a9 9 0 0 0 -18 0" /><path d="M3.6 9h16.8" /><path d="M3.6 15h16.8" /><path d="M11.5 3a17 17 0 0 0 0 18" /><path d="M12.5 3a17 17 0 0 1 0 18" /></svg>',
-        title: 'Weinig Reichweite und Sichtbarkeit?',
+        title: 'Wenig Reichweite und Sichtbarkeit?',
         description1: 'Versuchst Du Deine Zielgruppe zu erreichen und fragst Dich, wie das am effektivsten geht?',
         description2: 'Wir entwickeln für Dich gezielte Sozial-Media-Strategien, damit Du Deine Markenbekanntheit steigerst, und sowohl Kunden als auch Bewerber affektiv ansprichst.',
         result:'',
@@ -57,7 +57,7 @@ const initialState = {
         id: 6,
         title: 'Unzureichende Markenwahrnehmung',
         svg:'<svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-sparkles"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M16 18a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm0 -12a2 2 0 0 1 2 2a2 2 0 0 1 2 -2a2 2 0 0 1 -2 -2a2 2 0 0 1 -2 2zm-7 12a6 6 0 0 1 6 -6a6 6 0 0 1 -6 -6a6 6 0 0 1 -6 6a6 6 0 0 1 6 6z" /></svg>',
-        description1: 'Hast Du Schwierígkeiten Deine Arbeitgebermarke so zu positionieren, dass sie als attraktiver Arbeitsplatz wahrgenommen wird?',
+        description1: 'Hast Du Schwierigkeiten Deine Arbeitgebermarke so zu positionieren, dass sie als attraktiver Arbeitsplatz wahrgenommen wird?',
         description2: 'Wir  stärken Deine Employer Brand, und sorgen für mehr qualifizierte Bewerber.',
         result:'',
         img: 'https://via.placeholder.com/150',
