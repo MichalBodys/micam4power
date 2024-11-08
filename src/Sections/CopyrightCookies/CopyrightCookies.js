@@ -5,8 +5,7 @@ const CopyrightCookies = () => {
       <h1 className=" text-lg">Copyright and Cookies</h1>
       <p className="text-sm">
       <span className="mb-3">Impressum</span><br/>
-      MI Consulting and more e.K. <br/>
-      Inhaber: Ireneusz Masarczyk<br/>
+      Ireneusz Masarczyk<br/>
       Astrid-Lindgren-Str. 18<br/>
       21423 Winsen (Luhe)<br/>
       Deutschland<br/>
@@ -16,14 +15,11 @@ const CopyrightCookies = () => {
       Website:www.addecoder.de<br/>
 
       Rechtsform:
-      Eingetragener Kaufmann (e.K.)<br/>
-      Registergericht: Amtsgericht Lüneburg<br/>
-      Registernummer: HRA [beantragt]<br/>
+      Einzelunternehmen<br/>
 
-      Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz:<br/>
-      [beantragt]
+      Umsatzsteuer-Identifikationsnummer gemäß § 27a Umsatzsteuergesetz: [beantragt]
 
-      Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:<br/>
+      <br/>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:<br/>
       Ireneusz Masarczyk<br/>
       Astrid-Lindgren-Str. 18<br/>
       21423 Winsen (Luhe)<br/>
